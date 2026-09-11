@@ -9,7 +9,7 @@ keyboard focus, `keepLoaded`, bar-widget toggle.
 ## Install
 
 ```bash
-omarchy plugin add https://github.com/maiosx/wallpicker.git --enable --yes
+omarchy plugin add https://github.com/maiosx/mihai.picker.git --enable --yes
 ```
 
 Enable the **Wallpapers** bar widget from Setup → Bar if it doesn't show
@@ -32,7 +32,7 @@ omarchy-shell wallpicker toggle|open|close|status
 
 Open `WallpaperPicker.qml` and edit the properties near the top:
 
-- `picturesDir` — defaults to `$HOME/Pictures`. Point it at any folder.
+- `picturesDir` — defaults to `$HOME/Pictures/Wallpapers/`. Point it at any folder.
 - `recursive` — set to `true` to include subfolders.
 - `columns` — number of grid columns (default 5).
 
