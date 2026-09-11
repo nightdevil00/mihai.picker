@@ -15,9 +15,9 @@ Item {
     property var manifest: null
     property bool opened: false
 
-    // Change this if your wallpapers live somewhere other than ~/Pictures.
+    // Change this if your wallpapers live somewhere other than ~/Pictures/Wallpapers.
     // Set recursive to true to also pick up images in subfolders.
-    property string picturesDir: "$HOME/Pictures"
+    property string picturesDir: "$HOME/Pictures/Wallpapers"
     property bool recursive: false
 
     property int columns: 5
