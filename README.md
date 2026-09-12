@@ -9,7 +9,7 @@ keyboard focus, `keepLoaded`, bar-widget toggle.
 ## Install
 
 ```bash
-omarchy plugin add https://github.com/maiosx/mihai.picker.git --enable --yes
+omarchy plugin add https://github.com/nightdevil00/mihai.picker.git --enable --yes
 ```
 
 Enable the **Wallpapers** bar widget from Setup → Bar if it doesn't show
